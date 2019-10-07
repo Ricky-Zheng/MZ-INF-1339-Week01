@@ -70,7 +70,7 @@
                    return (output) // initial default just illuminates segment A
                   }
             function illuminate(signals) {
-                document.getElementById("illuminate_input").innerHTML = single
+                document.getElementById("illuminate_input").innerHTML = signals
                 if (signals[0] == '1') {
                     document.getElementById("segmentA").innerHTML = 'ON'
                     document.getElementById("segmentA").setAttribute("class", "red")}
